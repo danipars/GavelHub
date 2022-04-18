@@ -1,10 +1,10 @@
-# DailyPay Front End Engineering Challenge
+# Senior Front End Dev Challenge
 
-Welcome Candidate and thank you for taking the time to complete the DailyPay take-home challenge for our senior frontend engineer position
+Welcome Candidate and thank you for taking the time to complete the take-home challenge for our senior frontend engineer position
 
 You will have 2 days to complete the assignment. Once you have completed your solution, please reply with a link to a github repository and instructions on how to install / run the application
 
-The goal of this challenge is to build out a "Movie Awards 2021" interactive ballot. Please clone this repository and submit it once you are finished.
+The goal of this challenge is to build out a "Movie Awards 2022" interactive ballot. Please clone this repository and submit it once you are finished.
 
 Here are the rules of this challenge.. you must:
 
@@ -24,8 +24,6 @@ Here are the rules of this challenge.. you must:
  4) Utilize CSS to create the layout of the page. Add hover styles to the items the user is interacting with.
  5) Create components as you feel is best suited for your solution
 
-![Ballot Wireframe](src/take-home-wire.jpg?raw=true "Ballot Wireframe")
-![Ballot Success Modal Wireframe](src/take-home-success.jpg?raw=true "Ballot Success Modal Wireframe")
 
 ## Bonuses
 2) Make it pretty
