@@ -1,6 +1,6 @@
 React Native Developer Technical Interview Questions
 
-# A TASTE OF WHAT YOU CAN EXPECT FROM OUR TECHNICAL INTERVIEWS
+A TASTE OF WHAT YOU CAN EXPECT FROM OUR TECHNICAL INTERVIEWS
 
 How can you keep animations from being blocked on the JavaScript thread? Describe how this works and explain some of the limitations.
 (intermediate)
