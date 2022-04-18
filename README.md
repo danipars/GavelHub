@@ -42,7 +42,7 @@ Here are the rules of this challenge.. you must:
   - Nominee card background hover / submit button background hover: ![#34AC9C](https://via.placeholder.com/15/#34AC9C/000000?text=+) `#34AC9C`
 
 
-  Good luck and if you have questions, please reach out to us at rafael.freaner@dailypay.com
+  Good luck and if you have questions, please reach out to us at challenge@letsgavel.com
 
 ## Available Scripts
 
