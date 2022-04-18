@@ -1,6 +1,8 @@
 # GavelHub
   Gavel Take Home Coding Challenge
   React Native
+  
+  CHOOSE 10 OF THE FOLLOWING QUESTIONS AND SEND YOUR DETAILED ANSWERS BACK TO challenge@letsgavel.com
    
   React Native Basic Interview Questions_
 1.  How Different is React-native from ReactJS ?
