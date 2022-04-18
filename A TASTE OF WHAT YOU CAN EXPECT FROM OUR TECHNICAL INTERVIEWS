@@ -1,0 +1,82 @@
+React Native Developer Technical Interview Questions
+
+A TASTE OF WHAT YOU CAN EXPECT FROM OUR TECHNICAL INTERVIEWS
+
+How can you keep animations from being blocked on the JavaScript thread? Describe how this works and explain some of the limitations.
+(intermediate)
+
+ANSWER
+
+By adding useNativeDriver: true to the animation options
+It works by passing the animation to the native thread where it will not be blocked by the JavaScript thread
+This will work on non-layout properties like opacity and transform, but will not work on things like flex, or position
+Explain the re-architecture of React Native and the importance of the changes?
+(hard)
+
+ANSWER
+
+Facebook is working internally to change the way Javascript interfaces with Native Modules. This is an overhaul of the UI-Layer, it’s codenamed “Fabric”
+TurboModules will be the next iteration of NativeModules. Importantly this will ensure native modules are loaded eagerly instead of all at once avoiding startup overhead
+Also, TurboModules can be called synchronously avoiding asynchronous calls across the RN bridge
+Along with this change the core of React Native is going lean. Which means many libraries such as Async Storage, Geolocation and Device information are moving to separate repositories
+What is a Fragment and why would you use one?
+(intermediate)
+
+ANSWER
+
+A fragment is a way of grouping JSX elements together without adding to the render tree by wrapping them in an additional view.
+A good example of where to use a fragment is in a dedicated component of a screen where no additional container styling is needed.
+The benefits of using a fragment is less complex styling in some cases and less complex rendering.
+What does StyleSheet.create do?
+(easy)
+
+ANSWER
+
+StyleSheet.create method ensures that values are immutable and opaque, they are also only created once.
+What are hooks and when would you use them?
+(hard)
+
+ANSWER
+
+Hooks is a way to use stateful logic, effects, etc outside of a class.
+A hook is a useful way to share stateful logic across multiple functional components, examples include: A modal’s open/closed state, Form state, and Subscribing to events
+What strategy would you use to optimize a large list of items on FlatList?
+(intermediate)
+
+ANSWER
+
+Use PureComponent on renderItem with bind methods
+Add keyExtractor property
+Add pagination
+Define getItemLayout
+Define removeClippedSubviews true
+Can you provide some ideas on how to prevent memory leaks in your app?
+(intermediate)
+
+ANSWER
+
+Release timers/listeners added in componentDidMount
+Handle closure scope
+Do you know how can you detect memory leaks on the app?
+(advanced)
+
+ANSWER
+
+Xcode and Android studio provide tools to track the memory used by an app. These tools can be used to test the app on both devices and simulators.
+How can you improve the performance (load speed, rendering quality) of images?
+(easy)
+
+ANSWER
+
+Server-side compression
+Third-party tools such as Cloudinary
+Image caching
+Name at least one style property that can increase tappable area around an element
+(easy)
+
+ANSWER
+
+padding (and also paddingVertical, ...Horizontal, ...Left, ...Right, ...Top, ...Bottom)
+minHeight and minWidth
+hitSlop
+Make Tappleble Areas Larger
