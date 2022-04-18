@@ -1,4 +1,4 @@
-# Senior Front End Dev Challenge
+# Senior Front End Dev Challenge | GAVEL
 
 Welcome Candidate and thank you for taking the time to complete the take-home challenge for our senior frontend engineer position
 
